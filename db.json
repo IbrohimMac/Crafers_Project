@@ -1,0 +1,116 @@
+{
+  "craf": [
+    {
+      "id": "1",
+      "img": "/json-img.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 1",
+      "price": "250$"
+    },
+    {
+      "id": "2",
+      "img": "/json-img2.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 2",
+      "price": "250$"
+    },
+    {
+      "id": "3",
+      "img": "/json-img3.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 3",
+      "price": "250$"
+    },
+    {
+      "id": "4",
+      "img": "/json-img4.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 4",
+      "price": "250$"
+    },
+    {
+      "id": "5",
+      "img": "/json-img5.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 5",
+      "price": "250$"
+    },
+    {
+      "id": "6",
+      "img": "/json-img.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 6",
+      "price": "250$"
+    },
+    {
+      "id": "7",
+      "img": "/json-img6.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 7",
+      "price": "250$"
+    },
+    {
+      "id": "8",
+      "img": "/json-img7.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 8",
+      "price": "250$"
+    },
+    {
+      "id": "9",
+      "img": "/json-img2.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 9",
+      "price": "250$"
+    },
+    {
+      "id": "10",
+      "img": "/json-img4.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 10",
+      "price": "250$"
+    },
+    {
+      "id": "11",
+      "img": "/json-img3.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 11",
+      "price": "250$"
+    },
+    {
+      "id": "12",
+      "img": "/json-img.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 12",
+      "price": "250$"
+    },
+    {
+      "id": "13",
+      "img": "/json-img.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 13",
+      "price": "250$"
+    },
+    {
+      "id": "14",
+      "img": "/json-img2.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 14",
+      "price": "250$"
+    },
+    {
+      "id": "15",
+      "img": "/json-img6.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 15",
+      "price": "250$"
+    },
+    {
+      "id": "16",
+      "img": "/json-img4.svg",
+      "name": "Автоматический сэндвич-принтер F-222 Dell'Oro",
+      "lastName": "Printer 16",
+      "price": "250$"
+    }
+  ]
+}
