@@ -58,8 +58,10 @@ const Details = () => {
             <p>Hisobingiz</p>
           </div>
           <div className="head-mini3">
-            <ImExit />
-            <p>Ro`yhatdan o`tish</p>
+            <Link to="/admin">
+              <ImExit />
+              <p>Ro`yhatdan o`tish</p>
+            </Link>
           </div>
         </div>
       </header>

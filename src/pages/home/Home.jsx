@@ -54,16 +54,22 @@ const Home = () => {
             </a>
           </div>
           <div className="head-mini2">
-            <AiFillMessage />
-            <p>Xabarlar </p>
+            <a href="#">
+              <AiFillMessage />
+              <p>Xabarlar </p>
+            </a>
           </div>
           <div className="head-mini3">
-            <MdContacts />
-            <p>Hisobingiz</p>
+            <a href="#">
+              <MdContacts />
+              <p>Hisobingiz</p>
+            </a>
           </div>
           <div className="head-mini3">
-            <ImExit />
-            <p>Ro`yhatdan o`tish</p>
+            <Link to="/admin">
+              <ImExit />
+              <p>Ro`yhatdan o`tish</p>
+            </Link>
           </div>
         </div>
       </header>

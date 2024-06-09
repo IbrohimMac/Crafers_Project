@@ -3,6 +3,8 @@ import i1 from "../../../public/img1.svg";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import "../../sass/footer/footer.css";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer>
@@ -18,8 +20,12 @@ const Footer = () => {
         </div>
         <div className="foot-big3">
           <h2>Hizmatlar</h2>
-          <p>Profil ochish</p>
-          <p>Profilga kirish</p>
+          <Link className="Link" to="/admin">
+            <p>Profil ochish</p>
+          </Link>
+          <Link className="Link" to="/admin">
+            <p>Profilga kirish</p>
+          </Link>
         </div>
         <div className="foot-big4">
           <h2>Kantakt</h2>

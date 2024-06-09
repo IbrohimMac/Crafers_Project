@@ -79,3 +79,11 @@
     }
   }
 }
+.Link {
+  text-decoration: none;
+  color: black;
+}
+.Link:hover {
+  color: #868585;
+  transition: 0.3s;
+}

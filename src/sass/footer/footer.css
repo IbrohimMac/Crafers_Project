@@ -70,4 +70,14 @@
 }
 .allFoot .foot-big4 .footBig4 .footIcon2 {
   margin-top: 2px;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+.Link:hover {
+  color: #868585;
+  transition: 0.3s;
 }/*# sourceMappingURL=footer.css.map */
