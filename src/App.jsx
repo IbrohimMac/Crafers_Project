@@ -10,6 +10,7 @@ import Home from "./pages/home/Home";
 import Details from "./pages/details/Details";
 import Login from "./pages/admin/Login";
 import Profile from "./pages/admin/Profile";
+
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userInfo, setUserInfo] = useState({
@@ -24,33 +25,15 @@ const App = () => {
   return (
     <div>
       <div>
-        {/* <Router>
-          <div>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              
-            </Routes>
-            <Footer />
-          </div>
-        </Router> */}
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route
             path="/login"
             element={
               !isAuthenticated ? (
                 <Login onLogin={handleLogin} />
               ) : (
-                <div>
-                  <h1>Admin</h1>
-                  <nav>
-                    <button onClick={() => setIsAuthenticated(false)}>
-                      Logout
-                    </button>
-                  </nav>
-                  <Profile userInfo={userInfo} />
-                </div>
+                <Navigate to="/profile" />
               )
             }
           />

@@ -59,7 +59,7 @@ const Details = () => {
           </div>
           <div className="head-mini3">
             <Link to="/admin">
-              <ImExit />
+              <ImExit style={{ marginTop: 2 }} />
               <p>Ro`yhatdan o`tish</p>
             </Link>
           </div>

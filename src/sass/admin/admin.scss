@@ -1,32 +1,38 @@
-/* App.css */
-
 .loginBody {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 223px;
 }
 
 .loginH {
   color: #333;
+  font-family: sans-serif;
 }
-
 .loginIn {
   display: block;
-  width: 100%;
+  width: 600px;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
-}
 
+  margin-top: 40px;
+  font-family: sans-serif;
+  outline: none;
+}
+.loginInput {
+  display: flex;
+  justify-content: center;
+}
 .loginB {
+  font-family: sans-serif;
   padding: 10px 20px;
   color: #fff;
   background-color: #007bff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .loginB:hover {
@@ -35,4 +41,97 @@
 
 .profile-info p {
   margin: 5px 0;
+}
+
+.profileBody {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 223px;
+}
+.profileUser {
+  color: red;
+}
+.profileH {
+  color: #333;
+  font-family: sans-serif;
+}
+.profileP {
+  justify-content: center;
+  display: flex;
+  p {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgb(55, 0, 255);
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.profilePP {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  p {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgb(55, 0, 255);
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.logoutB {
+  font-family: sans-serif;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.profileB:hover {
+  background-color: #0056b3;
+}
+.linked {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.link {
+  text-decoration: none;
+}
+.linkBut {
+  display: flex;
+  gap: 15px;
+  border: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  background-color: white;
+  cursor: pointer;
+}
+.detaIcon {
+  color: blue;
+  font-size: 18px;
+  margin-top: 1px;
 }

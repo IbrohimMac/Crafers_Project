@@ -49,26 +49,34 @@ const Home = () => {
         <div className="head-big2">
           <div className="head-mini1">
             <a href="#">
-              <FaPhoneAlt />
-              <p> +998 90 948 76 54</p>
+              <div className="headMinLink">
+                <FaPhoneAlt />
+                <p> +998 90 948 76 54</p>
+              </div>
             </a>
           </div>
           <div className="head-mini2">
             <a href="#">
-              <AiFillMessage />
-              <p>Xabarlar </p>
+              <div className="headMinLink">
+                <AiFillMessage />
+                <p>Xabarlar </p>
+              </div>
             </a>
           </div>
           <div className="head-mini3">
             <a href="#">
-              <MdContacts />
-              <p>Hisobingiz</p>
+              <div className="headMinLink">
+                <MdContacts />
+                <p>Hisobingiz</p>
+              </div>
             </a>
           </div>
           <div className="head-mini3">
             <Link to="/admin">
-              <ImExit />
-              <p>Ro`yhatdan o`tish</p>
+              <div className="headMinLink">
+                <ImExit className="headMinP" style={{ marginTop: 2 }} />
+                <p className="headMinP">Ro`yhatdan o`tish</p>
+              </div>
             </Link>
           </div>
         </div>

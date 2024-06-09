@@ -92,8 +92,16 @@ header {
     }
     .head-mini2 {
       display: flex;
-      color: white;
+      color: rgb(206, 12, 12);
       gap: 8px;
+    }
+    .headMinLink {
+      display: flex;
+      gap: 8px;
+    }
+    .headMinLink:hover {
+      color: #afafaf;
+      transition: 0.3s;
     }
     .head-mini3 {
       display: flex;
@@ -112,6 +120,7 @@ header {
   margin-left: 90px;
   .homeImg {
     margin-top: 40px;
+    border-radius: 6px;
   }
   .homeH {
     font-family: sans-serif;
