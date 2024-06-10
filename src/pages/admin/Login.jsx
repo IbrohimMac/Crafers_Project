@@ -42,7 +42,7 @@ const Login = ({ onLogin }) => {
           <div className="loginInput">
             <input
               className="loginIn"
-              type="text"
+              type="username"
               placeholder="Username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}

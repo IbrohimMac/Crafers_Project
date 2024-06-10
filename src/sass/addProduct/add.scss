@@ -1,0 +1,151 @@
+p {
+  font-family: sans-serif !important;
+}
+h1 {
+  font-family: sans-serif !important ;
+}
+
+.add-product-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-product-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-product-container form div {
+  margin-bottom: 15px;
+}
+
+.add-product-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-product-container input[type="text"],
+.add-product-container input[type="file"],
+.add-product-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-product-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product-container button:hover {
+  background-color: #45a049;
+}
+
+.preview-image {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.addName {
+  input {
+    padding-left: 15px;
+    max-width: 100%;
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+}
+
+/* addProduct.css */
+.add-product-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.file-input-container {
+  margin-bottom: 15px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #00b7fa;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #00b7fa;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #0f89b5;
+  border: 1px solid #0f89b5;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.preview-image {
+  display: block;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+}

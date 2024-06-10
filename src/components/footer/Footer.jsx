@@ -15,15 +15,19 @@ const Footer = () => {
         </div>
         <div className="foot-big2">
           <h2>Sayt haqida</h2>
-          <p>Biz haqimizda </p>
-          <p>Foydalanish shartlari</p>
+          <Link className="Link" to="/">
+            <p>Biz haqimizda </p>
+          </Link>
+          <Link className="Link" to="/">
+            <p>Foydalanish shartlari</p>
+          </Link>
         </div>
         <div className="foot-big3">
           <h2>Hizmatlar</h2>
-          <Link className="Link" to="/admin">
+          <Link className="Link" to="/Login">
             <p>Profil ochish</p>
           </Link>
-          <Link className="Link" to="/admin">
+          <Link className="Link" to="/Profile">
             <p>Profilga kirish</p>
           </Link>
         </div>

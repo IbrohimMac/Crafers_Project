@@ -10,6 +10,7 @@ import Home from "./pages/home/Home";
 import Details from "./pages/details/Details";
 import Login from "./pages/admin/Login";
 import Profile from "./pages/admin/Profile";
+import AddProduct from "./pages/AddProduct/AddProduct";
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -27,6 +28,7 @@ const App = () => {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/AddProduct" element={<AddProduct />} />
           <Route
             path="/login"
             element={
